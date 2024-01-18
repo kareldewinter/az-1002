@@ -6,9 +6,9 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "internal.charistech.xyz" {
+zone "internal.kareldewinter.com" {
     type master;
-    file "/etc/bind/db.internal.charistech.xyz";
+    file "/etc/bind/db.internal.kareldewinter.com";
 };
 
 zone "10.10.in-addr.arpa" {
